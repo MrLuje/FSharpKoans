@@ -19,7 +19,7 @@ type Favorite =
 // of them like a much more powerful version of enums in other
 // languages.
 //---------------------------------------------------------------
-[<Koan(Sort = 18)>]
+[<Koan(Sort = 17)>]
 module ``about discriminated unions`` =
     [<Koan>]
     let DiscriminatedUnionsCaptureASetOfOptions() =

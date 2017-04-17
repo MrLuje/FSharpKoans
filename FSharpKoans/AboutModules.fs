@@ -25,7 +25,7 @@ module MushroomKingdom =
 // They're similar to .NET namespaces, but they have slightly 
 // different semantics as you'll see below.
 //---------------------------------------------------------------
-[<Koan(Sort = 19)>]
+[<Koan(Sort = 18)>]
 module ``about modules`` =
 
     [<Koan>]
@@ -49,7 +49,7 @@ module ``about modules`` =
 
 open MushroomKingdom
 
-[<Koan(Sort = 20)>]
+[<Koan(Sort = 19)>]
 module ``about opened modules`` =
     [<Koan>]
     let OpenedModulesBringTheirContentsInScope() = 

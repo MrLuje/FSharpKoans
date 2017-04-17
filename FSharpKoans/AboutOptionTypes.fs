@@ -15,7 +15,7 @@ type Game = {
 // in other languages. However, using option types instead of nulls
 // has subtle but far reaching benefits.
 //---------------------------------------------------------------
-[<Koan(Sort = 17)>]
+[<Koan(Sort = 16)>]
 module ``about option types`` =
 
     [<Koan>]

@@ -13,7 +13,7 @@ type Character = {
 // You can use them to group data in a more structured way than
 // tuples.
 //---------------------------------------------------------------
-[<Koan(Sort = 16)>]
+[<Koan(Sort = 15)>]
 module ``about record types`` =
 
     [<Koan>]

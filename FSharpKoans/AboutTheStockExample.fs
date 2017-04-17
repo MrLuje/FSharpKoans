@@ -25,7 +25,7 @@ open FSharpKoans.Core
 // let splitCommas (x:string) =
 //     x.Split([|','|])
 //---------------------------------------------------------------
-[<Koan(Sort = 15)>]
+[<Koan(Sort = 21)>]
 module ``about the stock example`` =
     
     let stockData =
