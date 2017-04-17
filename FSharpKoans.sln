@@ -9,6 +9,12 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpKoans", "FSharpKoans\
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpKoans.Test", "FSharpKoans.Test\FSharpKoans.Test.fsproj", "{69F00CBF-0EDC-4260-B852-C53B8C44BBCE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Run 'n watch", "Run 'n watch", "{32C7DFDF-E0BD-4C6A-986F-5C34CF0AAFED}"
+	ProjectSection(SolutionItems) = preProject
+		run.bat = run.bat
+		tests.fsx = tests.fsx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
