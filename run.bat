@@ -3,6 +3,7 @@ cls
 
 
 .nuget\nuget.exe install "FsharpKoans\packages.config" -OutputDirectory "packages"
+.nuget\nuget.exe install "FsharpKoans.Core\packages.config" -OutputDirectory "packages"
 if errorlevel 1 (
   exit /b %errorlevel%
 )
