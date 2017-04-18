@@ -39,6 +39,11 @@ let RunProgram path () =
 // Targets
 Target "Default" (fun _ ->
 
+    trace ""
+    traceLine()
+    traceImportant "You can now start editing the first file (AboutAsserts.fs)"
+    traceLine()
+
     use watcher = !! "FSharpKoans/**/*.fs" |> WatchChanges (fun changes -> 
         
         clearConsole()
